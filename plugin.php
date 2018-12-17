@@ -191,4 +191,22 @@ function csp_is_field( $formData, $fieldname ){ //Arg1 array of form data, field
 	
 })(jQuery); // End of use strict
 
+
+<form id="email-subscription-form" class="form-inline row">
+ 
+	<div class="col">
+	  <label class="sr-only" for="inlineFormInputGroup">Email</label>
+	  
+	  <div class="input-group mb-2 subscription-form-container">
+		<input type="email" class="form-control" id="inlineFormInputGroup" name="csp_email" placeholder="Email" required>
+		<div class="input-group-prepend">
+		  <button class="btn btn-success input-group-text" type="submit">Subscribe</button>
+		</div>
+	  </div>
+		<p class="csp_loader" style="display: none;"><i class="fas fa-spinner fa-spin"></i></p>
+		<p class="csp_api_msg"></p>
+	</div>
+  
+</form>
+
 */
